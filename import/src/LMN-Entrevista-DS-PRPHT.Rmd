@@ -25,8 +25,7 @@ p_load(dplyr,
 ## Importación de datos
 ```{r import_data, echo=TRUE}
 # Importación de datos
-args <- list(input = here("import/input/Datos para ejercicio práctico-Data Specialist.xlsx"), 
-             output = here("import/output/datos-entrevista-PRPHT.csv"))
+args <- list(input = here("exercise/input/Datos para ejercicio práctico-Data Specialist.xlsx"))
              
 datos_PRPHT_orig <- read_excel(args$input)
 
